@@ -1,5 +1,5 @@
 ### STAGE 1: Build ###
-FROM activepieces/ap-base:7 AS build
+FROM ghcr.io/activepieces/activepieces:latest AS build
 
 # Set up backend
 WORKDIR /usr/src/app
